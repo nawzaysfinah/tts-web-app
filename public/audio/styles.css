@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+audio {
+  margin-top: 20px;
+}
+a:nth-of-type(3),
+a:nth-of-type(4) {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+a:nth-of-type(3) {
+  color: #6f4e37;
+}
+a:nth-of-type(4) {
+  color: #003087;
+}
+a:nth-of-type(3):hover,
+a:nth-of-type(4):hover {
+  text-decoration: underline;
+}
