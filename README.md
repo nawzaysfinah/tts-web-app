@@ -18,7 +18,7 @@ This is a simple AI-powered text-to-speech (TTS) web application built using Nod
 
 1. Clone the Repository
    ```sh
-   git clone https://github.com/yourusername/tts-webapp.git
+   git clone https://github.com/nawzaysfinah/tts-web-app.git
    cd tts-webapp
    ```
 
