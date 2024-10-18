@@ -33,7 +33,7 @@ This is a simple AI-powered text-to-speech (TTS) web application built using Nod
 
 4. **Run the Application**
    ```sh
-   npm start
+   node index.js
    ```
    The server will start running on `http://localhost:3000`.
 
