@@ -7,7 +7,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
 
 // Middleware to parse form data
 app.use(express.urlencoded({ extended: true }));
@@ -44,6 +43,14 @@ app.post("/synthesize", async (req, res) => {
   }
 });
 
+// // running on localhost
+// const PORT = 3000;
+// app.listen(PORT, () => {
+//   console.log(`Server is running on http://localhost:${PORT}`);
+// });
+
+// running on railway server
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
