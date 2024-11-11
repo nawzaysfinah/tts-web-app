@@ -57,7 +57,7 @@ The server will start running on [http://localhost:3000](http://localhost:3000).
 - `public/`: Static files (CSS, audio files, etc.).
 
 ## Credits
-This project was inspired by the article "How to Build Your Own AI Text-to-Speech App in Minutes Using Node.js" by Ebinor Pak.
+This project was inspired by the article [How to Build Your Own AI Text-to-Speech App in Minutes Using Node.js] (https://medium.com/@ebinorpak/how-to-build-your-own-ai-text-to-speech-app-in-minutes-using-node-js-5721ec04287f) by Ebinor Pak.
 
 ## License
 This project is open-source and available under the MIT License.
